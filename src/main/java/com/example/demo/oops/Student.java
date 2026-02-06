@@ -14,4 +14,8 @@ public class Student {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
+    public void updateAge(int newAge) {
+        this.age = newAge;
+    }
+
 }
